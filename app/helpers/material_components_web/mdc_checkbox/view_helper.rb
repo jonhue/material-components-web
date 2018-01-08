@@ -10,10 +10,8 @@ module MaterialComponentsWeb
                     disabled: false
                 }
                 defaults.merge! options
-                
-                mdc_form_field class: 'input checkbox' do
-                    render partial: 'material_components_web/mdc_checkbox', locales: { attribute: attribute, options: options }
-                end
+
+                render partial: 'material_components_web/mdc_checkbox', locales: { attribute: attribute, options: options }
             end
 
         end

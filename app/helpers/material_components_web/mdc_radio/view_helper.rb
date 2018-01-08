@@ -11,9 +11,7 @@ module MaterialComponentsWeb
                 }
                 defaults.merge! options
 
-                mdc_form_field class: 'input radio' do
-                    render partial: 'material_components_web/mdc_radio', locales: { attribute: attribute, value: value, options: options }
-                end
+                render partial: 'material_components_web/mdc_radio', locales: { attribute: attribute, value: value, options: options }
             end
 
         end
