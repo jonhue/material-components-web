@@ -21,6 +21,16 @@ This translates to:
 </div>
 ```
 
+#### Javascript
+
+To add JavaScript functionality, add the following snippet to your asset pipeline:
+
+```js
+$('.mdc-checkbox').each(function( i, obj ) {
+    var checkbox = new mdc.checkbox.MDCCheckbox(obj);
+});
+```
+
 ### Options
 
 * **`class_name`** A string to indicate the class name of the object the attribute belongs to. Used to define the `type` and `id` attributes of the checkbox. Accepts a string or `false`. Can look like: `'user[settings]'`

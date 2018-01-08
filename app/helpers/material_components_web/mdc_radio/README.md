@@ -20,6 +20,16 @@ This translates to:
 </div>
 ```
 
+#### Javascript
+
+To add JavaScript functionality, add the following snippet to your asset pipeline:
+
+```js
+$('.mdc-radio').each(function( i, obj ) {
+    var radio = new mdc.radio.MDCRadio(obj);
+});
+```
+
 ### Options
 
 * **`class_name`** A string to indicate the class name of the object the attribute belongs to. Used to define the `type` and `id` attributes of the radio button. Accepts a string or `false`. Can look like: `'user[settings]'`
