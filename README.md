@@ -2,14 +2,15 @@
 
 [![Gem Version](https://badge.fury.io/rb/material-components-web.svg)](https://badge.fury.io/rb/material-components-web) <img src="https://travis-ci.org/jonhue/material-components-web.svg?branch=master" />
 
-Material Components Web for Rails provides a set of helpers simplifying the using of the Material Components Web library within your Rails app.
+Material Components Web for Rails provides a set of helpers simplifying the using of the [Material Components Web](https://github.com/material-components/material-components-web) library within your Rails app.
 
 ---
 
 ## Table of Contents
 
 * [Installation](#installation)
-* [Usage](#usage)
+* [Philosophy](#philosophy)
+* [Components](#components)
 * [To Do](#to-do)
 * [Contributing](#contributing)
     * [Contributors](#contributors)
@@ -40,9 +41,36 @@ If you always want to be up to date fetch the latest from GitHub in your `Gemfil
 gem 'material-components-web', github: 'jonhue/material-components-web'
 ```
 
-## Usage
+Then add [Material Components Web](https://github.com/material-components/material-components-web) to your asset pipeline:
+
+```js
+//= require material-components-web
+```
+```css
+/*
+ *= require material-components-web
+ */
+```
+
+**Note:** If you are using a package manager like Yarn, make sure to fetch the latest versions instead.
+
+---
+
+## Philosophy
 
 ...
+
+---
+
+## Components
+
+These are the material components currently supported by Material Components Web for Rails:
+
+* [`mdc-checkbox`](app/helpers/material_components_web/mdc_checkbox)
+* [`mdc-form-field`](app/helpers/material_components_web/mdc_form_field)
+* [`mdc-radio`](app/helpers/material_components_web/mdc_radio)
+
+You feel a component is missing? Create an issue to make us aware, or implement it yourself. Pull requests are welcome.
 
 ---
 

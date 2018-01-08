@@ -1,0 +1,8 @@
+<div class="mdc-radio<%= ' mdc-radio--disabled' if options[:disabled] %>">
+    <input checked="<%= options[:checked] %>" class="mdc-radio__native-control" type="radio" value="<%= value %>" name="<%= options[:class_name] ? options[:class_name].to_s + '[' + attribute.to_s + ']' : attribute.to_s %>" id="<%= options[:class_name] ? options[:class_name].to_s + '_' + attribute.to_s : attribute.to_s %>" />
+    <div class="mdc-radio__background">
+        <div class="mdc-radio__outer-circle"></div>
+        <div class="mdc-radio__inner-circle"></div>
+    </div>
+</div>
+<% if options[:label] %><label for="<%= options[:class_name] ? options[:class_name].to_s + '_' + attribute.to_s : attribute.to_s %>"><%= options[:label].html_safe %></label><% end %>
