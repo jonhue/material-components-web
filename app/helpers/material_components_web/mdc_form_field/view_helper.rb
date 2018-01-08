@@ -1,5 +1,5 @@
 module MaterialComponentsWeb
-    module MDCFormField
+    module MdcFormField
         module ViewHelper
 
             def mdc_form_field options = {}, &block

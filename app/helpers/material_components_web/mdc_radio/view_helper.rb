@@ -1,5 +1,5 @@
 module MaterialComponentsWeb
-    module MDCRadio
+    module MdcRadio
         module ViewHelper
 
             def mdc_radio attribute, value, options = {}

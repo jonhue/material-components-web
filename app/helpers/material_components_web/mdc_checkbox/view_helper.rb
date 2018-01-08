@@ -1,5 +1,5 @@
 module MaterialComponentsWeb
-    module MDCCheckbox
+    module MdcCheckbox
         module ViewHelper
 
             def mdc_checkbox attribute, options = {}
