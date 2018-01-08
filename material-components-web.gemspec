@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path(File.join('..', 'lib', 'material-components-web', 'version'), __FILE__)
+require File.expand_path(File.join('..', 'lib', 'material_components_web', 'version'), __FILE__)
 
 Gem::Specification.new do |gem|
     gem.name                  = 'material-components-web'
