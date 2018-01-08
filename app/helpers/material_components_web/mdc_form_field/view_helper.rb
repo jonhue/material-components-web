@@ -6,7 +6,7 @@ module MaterialComponentsWeb
                 defaults = {}
                 defaults.merge! options
 
-                render partial: 'material_components_web/mdc_form_field', locales: { options: options, block: capture(&block) }
+                render partial: 'material_components_web/mdc_form_field', locals: { options: options, block: capture(&block) }
             end
 
         end

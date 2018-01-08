@@ -11,7 +11,7 @@ module MaterialComponentsWeb
                 }
                 defaults.merge! options
 
-                render partial: 'material_components_web/mdc_checkbox', locales: { attribute: attribute, options: options }
+                render partial: 'material_components_web/mdc_checkbox', locals: { attribute: attribute, options: options }
             end
 
         end
