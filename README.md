@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/material-components-web.svg)](https://badge.fury.io/rb/material-components-web) <img src="https://travis-ci.org/jonhue/material-components-web.svg?branch=master" />
 
-Material Components Web for Rails provides a set of helpers simplifying the using of the [Material Components Web](https://github.com/material-components/material-components-web) library within your Rails app.
+Material Components Web for Rails provides a set of helpers simplifying the use of the [Material Components Web](https://github.com/material-components/material-components-web) library within your Rails app.
 
 ---
 

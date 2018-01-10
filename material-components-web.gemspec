@@ -5,8 +5,8 @@ Gem::Specification.new do |gem|
     gem.name                  = 'material-components-web'
     gem.version               = MaterialComponentsWeb::VERSION
     gem.platform              = Gem::Platform::RUBY
-    gem.summary               = 'Provides a set of helpers simplifying the using of the Material Components Web library'
-    gem.description           = 'Provides a set of helpers simplifying the using of the Material Components Web library.'
+    gem.summary               = 'Provides a set of helpers simplifying the use of the Material Components Web library'
+    gem.description           = 'Provides a set of helpers simplifying the use of the Material Components Web library.'
     gem.authors               = 'Jonas Hübotter'
     gem.email                 = 'me@jonhue.me'
     gem.homepage              = 'https://github.com/jonhue/material-components-web'
