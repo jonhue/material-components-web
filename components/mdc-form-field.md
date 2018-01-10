@@ -5,7 +5,7 @@
 ### Usage
 
 ```haml
-= mdc_form_field do
+= component 'mdc-form-field' do
     ...
 ```
 
