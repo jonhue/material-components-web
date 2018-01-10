@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 1.0.1 - 2018/01/10
+
+* features
+    * use Mozaic to define and use components
+
 ### 1.0.1 - 2018/01/08
 
 * bugfixes
