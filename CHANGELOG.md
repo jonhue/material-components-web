@@ -4,7 +4,12 @@
 
 * nothing yet
 
-### 1.0.1 - 2018/01/10
+### 2.0.1 - 2018/01/12
+
+* bugfixes
+    * move Mozaic configuration into railtie
+
+### 2.0.0 - 2018/01/10
 
 * features
     * use Mozaic to define and use components
