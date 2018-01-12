@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 2.0.2 - 2018/01/12
+
+* bugfixes
+    * attempt to fix Mozaic configuration in production
+
 ### 2.0.1 - 2018/01/12
 
 * bugfixes
