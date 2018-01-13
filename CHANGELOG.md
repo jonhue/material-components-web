@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 2.0.4 - 2018/01/13
+
+* bugfixes
+    * fixed `mdc-radio` `checked` option
+
 ### 2.0.3 - 2018/01/13
 
 * bugfixes
