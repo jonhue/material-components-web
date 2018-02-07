@@ -4,6 +4,12 @@
 
 * nothing yet
 
+### 2.1.0 - 2018/02/07
+
+* features
+    * added `mdc-drawer` component
+    * added `mdc-toolbar` component
+
 ### 2.0.4 - 2018/01/13
 
 * bugfixes

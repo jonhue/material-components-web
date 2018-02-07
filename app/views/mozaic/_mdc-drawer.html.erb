@@ -1,0 +1,4 @@
+<<%= options[:type] == 'permanent' ? 'nav' : 'aside' %> class="mdc-drawer mdc-drawer--<%= options[:type] %> <%= options[:class] %>" id="<%= options[:id] %>">
+    <% if options[:above_toolbar] == 'permanent' %><div class="mdc-drawer__toolbar-spacer"></div><% end %>
+    <%= block %>
+</<%= options[:type] == 'permanent' ? 'nav' : 'aside' %>>
