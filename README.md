@@ -67,8 +67,10 @@ Then add [Material Components Web](https://github.com/material-components/materi
 These are the material components currently supported by Material Components Web for Rails:
 
 * [`mdc-checkbox`](components/mdc-checkbox.md)
+* [`mdc-drawer`](components/mdc-drawer.md)
 * [`mdc-form-field`](components/mdc-form-field.md)
 * [`mdc-radio`](components/mdc-radio.md)
+* [`mdc-toolbar`](components/mdc-toolbar.md)
 
 You feel a component is missing? Create an issue to make us aware, or implement it yourself. Pull requests are welcome.
 
