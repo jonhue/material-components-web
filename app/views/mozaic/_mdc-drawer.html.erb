@@ -1,4 +1,4 @@
-<<%= options[:type] == 'permanent' ? 'nav' : 'aside' %> class="mdc-drawer mdc-drawer--<%= options[:type] %> <%= options[:class] %>" id="<%= options[:id] %>">
-    <% if options[:above_toolbar] == 'permanent' %><div class="mdc-drawer__toolbar-spacer"></div><% end %>
+<% type = options.delete :type %><% above_toolbar = options.delete :above_toolbar %><%= content_tag ( type == 'permanent' ? 'nav' : 'aside' ), options do %><% if above_toolbar == 'permanent' %>
+    <div class="mdc-drawer__toolbar-spacer"></div><% end %>
     <%= block %>
-</<%= options[:type] == 'permanent' ? 'nav' : 'aside' %>>
+<% end %>
