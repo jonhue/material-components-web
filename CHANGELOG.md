@@ -4,6 +4,11 @@
 
 * nothing yet
 
+### 2.2.1 - 2018/02/18
+
+* bugfixes
+    * minor fixes
+
 ### 2.2.0 - 2018/02/18
 
 * enhancements
